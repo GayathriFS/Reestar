@@ -1,0 +1,82 @@
+
+body{
+    font-family: "Gabarito", sans-serif;
+    background-color: lightcyan;
+}
+.container{
+    text-align: center;
+}
+.nav-bar{
+    background-color: lightblue;
+    color:black;
+   width: 100%;
+}
+.nav-bar__list{
+    padding-bottom: 5px;
+    padding-top: 0px;
+}
+.image{
+    display: inline-block;
+   
+    
+}
+.image-one,
+.image-two,
+.image-three,
+.image-four
+{
+ width: 200px; 
+ border: 2px black solid ;
+ padding: 10px;
+ margin: 10px;  
+ display: inline-block;
+ background-color: lightsteelblue;
+
+}
+.image-one__title,
+.image-two__title,
+.image-three__title,
+.image-four__title
+{
+    font-size: 20px;
+    color: teal;
+}
+.image-one__desc,
+.image-two__desc,
+.image-three__desc,
+.image-four__desc
+{
+    font-size: 20px;
+    color: teal;
+}
+.image-one__button,
+.image-two__button,
+.image-three__button,
+.image-four__button{
+    background-color:paleturquoise;
+    color: black;
+    padding: 5px;
+}
+.footer-sec{
+    background-color:lightblue;
+    text-align: center;
+    color: white;
+}
+.footer-sec h4{
+    color: black;
+    padding: 10px;
+}
+.footer-sec__table{
+    padding-top: 0px;
+    text-align: center;
+    display: inline-block;
+    color: black;
+}
+.footer-sec__button{
+    background-color:steelblue;
+    color: black;
+   
+    padding: 3px 15%;
+
+}
+
